@@ -31,3 +31,17 @@ h5.modal-title{
 .modelFormWrapper{
     padding: 2rem;
 }
+
+.imgCenter{
+    display: block;
+    margin: auto;
+}
+
+.btnCenter{
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: 71%; /*54% as per the video*/
+    max-width: 315px;
+}
