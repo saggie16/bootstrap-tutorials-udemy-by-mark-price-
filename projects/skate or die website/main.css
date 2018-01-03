@@ -43,5 +43,5 @@ h5.modal-title{
     margin-top: 15px;
     margin-bottom: 20px;
     width: 71%; /*54% as per the video*/
-    max-width: 315px;
+    max-width: 315px;   /*added extra as the button expands out of bounds of the given aspect*/
 }

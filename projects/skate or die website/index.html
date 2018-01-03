@@ -87,7 +87,7 @@
                 <div class="col"></div>
             </div>
         </div>
-        
+
         <!--Section two-->
         <div class="sectionDark">
             <div class="row">
@@ -128,27 +128,30 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="row">
-                        <div class="col-sm-12 col-md-4">    <!--made col-md-4 instead of lg as the viewport was not fitting as per the lg size for these columns-->
+                        <div class="col-sm-12 col-md-4">
+                            <!--made col-md-4 instead of lg as the viewport was not fitting as per the lg size for these columns-->
                             <img class="img-fluid imgCenter" src="assets/kickflip.jpg">
                             <div class="row">
                                 <div class="col-sm-12">
-                                    <button type="button" class="btn btn-danger btn-lg btnCenter">Kickflip</button>
+                                    <button type="button" class="btn btn-danger btn-lg btnCenter" data-toggle="modal" data-target=".kf-modal-lg">Kickflip</button>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-4">    <!--made col-md-4 instead of lg as the viewport was not fitting as per the lg size for these columns-->
+                        <div class="col-sm-12 col-md-4">
+                            <!--made col-md-4 instead of lg as the viewport was not fitting as per the lg size for these columns-->
                             <img class="img-fluid imgCenter" src="assets/360flip.jpg">
                             <div class="row">
                                 <div class="col-sm-12">
-                                    <button type="button" class="btn btn-danger btn-lg btnCenter">360 Flip</button>
+                                    <button type="button" class="btn btn-danger btn-lg btnCenter" data-toggle="modal" data-target=".360-modal-md">360 Flip</button>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-4">    <!--made col-md-4 instead of lg as the viewport was not fitting as per the lg size for these columns-->
+                        <div class="col-sm-12 col-md-4">
+                            <!--made col-md-4 instead of lg as the viewport was not fitting as per the lg size for these columns-->
                             <img class="img-fluid imgCenter" src="assets/bscrook.jpg">
                             <div class="row">
                                 <div class="col-sm-12">
-                                    <button type="button" class="btn btn-danger btn-lg btnCenter">BS Crook</button>
+                                    <button type="button" class="btn btn-danger btn-lg btnCenter" data-toggle="modal" data-target=".bscrook-modal-sm">BS Crook</button>
                                 </div>
                             </div>
                         </div>
@@ -156,8 +159,9 @@
                 </div>
             </div>
         </div>
-        
-        
+
+
+
         <!-- Modal -->
         <!--Cool Stuff Modal-->
         <div class="modal fade" id="coolStuffModal" tabindex="-1" role="dialog" aria-labelledby="coolStuffLabel" aria-hidden="true">
@@ -178,7 +182,8 @@
                             </div>
                             <div class="row">
                                 <div class="col-sm-12">
-                                    <div class="modelFormWrapper">      <!--form wrapper-->
+                                    <div class="modelFormWrapper">
+                                        <!--form wrapper-->
                                         <form>
                                             <div class="form-group">
                                                 <label for="formName">What's your name ?</label>
@@ -200,6 +205,43 @@
                 </div>
             </div>
         </div>
+
+        <!--Kickflip Modal-->
+        <div class="modal fade kf-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg"> <!--need to change the model size as per the data target-->
+                <div class="modal-content">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="//www.youtube.com/embed/ilzy0viqVes" allowfullscreen></iframe>
+                    </div>
+                    <p>Kickflips are easy. Pop, flick, catch, land. #BOOM</p>
+                </div>
+            </div>
+        </div>
+        
+        <!--360 Flip Modal-->
+        <div class="modal fade 360-modal-md" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true"> 
+            <div class="modal-dialog modal-md"> <!--need to change the model size as per the data target-->
+                <div class="modal-content">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="//www.youtube.com/embed/ilzy0viqVes" allowfullscreen></iframe>
+                    </div>
+                    <p>360 flips are easy. Pop, scissor kick, catch, land. #BOOM</p>
+                </div>
+            </div>
+        </div>
+        
+        <!--BS Crook Modal-->
+        <div class="modal fade bscrook-modal-sm" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true"> 
+            <div class="modal-dialog modal-sm"> <!--need to change the model size as per the data target-->
+                <div class="modal-content">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="//www.youtube.com/embed/ilzy0viqVes" allowfullscreen></iframe>
+                    </div>
+                    <p>Backside Crooks are sick! Nollie in, nollie out! #BOOM</p>
+                </div>
+            </div>
+        </div>
+
 
 
     </div>
